@@ -1,0 +1,72 @@
+header{
+    width: 1440px;
+    height: 88px;
+    margin: 1px auto;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 15px;
+}
+
+.logo-pagina{
+    width: 180.78px;
+    height: 42px;
+    padding: 1em;
+    background-image: url(../img/logo-light.png.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.lista-menu{
+    width: 674.67px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.lista-menu li{
+    display: inline-flex;
+    gap: 2px;
+}
+
+.lista-menu li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--cor--fonte);
+}
+
+.vetor{
+    height: 20px;
+    padding: 1em;
+    background-image: url(../img/span_after.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#btn-get-in-touch{
+    width: 147.36px;
+    height: 26px;
+    background: transparent;
+    border: none;
+}
+
+.icone-btn{
+    height: 20px;
+    background-image: url(../img/button_before.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 1em;
+}
+

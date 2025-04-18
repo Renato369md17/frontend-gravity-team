@@ -1,0 +1,90 @@
+@import url(../styles/header.css);
+@import url(../styles/main.css);
+@import url(../styles/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--cor--fonte);
+}
+
+:root{
+    --background--pagina:#141619;
+    --cor--fonte:#FFFFFF;
+    --fonte--pagina:'Inter', sans-serif;
+}
+
+body{
+    width:100%;
+    overflow-x: hidden;
+    background: var(--background--pagina);
+    font-family: var(--fonte--pagina);
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 2px auto;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section, div{
+    margin: 5px auto;
+}
+
+h1,h2,h3,h4,h5{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+p{
+    line-height: 25px;
+    font-weight: 300;
+    margin: auto;
+}
+
+.texto-capitalizado{
+    text-transform: capitalize;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+
+.texto-em-minusculo{
+    text-transform: lowercase;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.background{
+    height: 2018px;
+    width: 2038px;
+    border-radius: 50%;
+    background-image: url(../img/background-blob-service-1.png.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    transform: rotate(55deg);
+}
+
+.configuracao-background_imagem{
+    padding: 1em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+}
