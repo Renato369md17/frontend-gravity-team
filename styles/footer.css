@@ -1,6 +1,29 @@
 footer{
     width: 1440px;
     height: 366.2px;
-    background-color: red;
-    margin: 1px auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 1120px;
+    height: 205.2px;
+}
+
+.footer-container_nav-footer{
+    width: 1056px;
+    height: 126.81px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container_nav-footer_links{
+    width: 116px;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
