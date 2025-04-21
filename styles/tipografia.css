@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+h1,h2,h3,h4,h5{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+p{
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.texto-capitalizado{
+    text-transform: capitalize;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+
+.texto-em-minusculo{
+    text-transform: lowercase;
+}
+
+/*HEADER*/
+
+/*MAIN*/
+
+/*TÍTULOS*/
+.balancing-crypto h1{
+    width: 520px;
+    height: 180px;
+    font-size: 74px;
+    margin: auto;
+}
+.gravity-team_container-texto h2{
+    font-size: 56px;
+    width: 531px;
+    height: 78px;
+    margin: auto;
+}
+.gravity-team_container-dados_card h3{
+    width:200px;
+    height: 42px;
+    margin: auto;
+    font-size: 32px;
+}
+.crypto-making-texto h2{
+    width: 590px;
+    height: 78px;
+    margin: auto;
+    font-size: 56px;
+}
+.subtitulo-secao{
+    width: 400px;
+    height: 89px;
+    font-size: 36px;
+    text-align: left;
+    font-weight: 400;
+}
+.partners-friends-container h2{
+    width: 380px;
+    height: 150px;
+    font-size: 60px;
+    position: relative;
+    z-index: 2;
+    right: 100px;
+}
+.good-company h2{
+    width: 719px;
+    height: 78px;
+    font-size: 57px;
+    margin: auto;
+}
+.join-gravity h2{
+    width: 600px;
+    height: 156px;
+    text-align: left !important;
+    font-size: 53px;
+}
+.contact-container h2{
+    font-size: 56px;
+    width: 300px;
+    height: 78px;
+}
+/*PARAGRAFOS*/
+.balancing-crypto p{
+    width: 527.89px;
+    height: 90px;
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+.gravity-team_container-texto p{
+    width: 612px;
+    height: 130px;
+    font-size:20px;
+}
+.gravity-team_container-dados_card p{
+    width: 210px;
+    height:55px ;
+    font-size: 18px;
+}
+.crypto-marketing-texto p{
+    width: 620px;
+    height: 90px;
+    font-size: 20px;
+}
+.crypto-making-texto p{
+    width: 620px;
+    height: 90px;
+    font-size: 20px;
+}
+.crypto-making_subcontainer_texto p{
+    font-size: 20px;
+    text-align: left;
+}
+.texto-secao{
+    width: 360px;
+    height: 122px;
+    margin: auto 0;
+}
+.texto-destaque{
+    width: 343px;
+    height: 52px;
+    font-weight: 800;
+    text-align: left;
+    margin: auto 0;
+}
+.market-exchange_texto p{
+    font-size: 19px;
+    text-align: left;
+}
+.texto-apresentacao{
+    width: 600px;
+    height: 100px;
+    font-size: 20px;
+}
+.card .content p{
+    height: 330px;
+    width: 670px;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+}
+.texto-destaque-slide{
+    font-size: 18px;
+    font-weight: 600;
+}
+.join-gravity_container-texto p{
+    font-size: 19px;
+    width: 505px;
+    text-align: left;
+    height: auto;
+}
+.contact-container p{
+    width: 623px;
+    height: 120px;
+    font-size: 18px;
+}
+/*FOOTER*/
+.links-footer h3{
+    width: 116px;
+    height: 24px;
+    font-size: 15px;
+    text-align: left !important;
+}
+.link-privacity-container p{
+    font-size: 15px;
+}
+

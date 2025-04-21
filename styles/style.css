@@ -1,7 +1,7 @@
 @import url(../styles/header.css);
 @import url(../styles/main.css);
 @import url(../styles/footer.css);
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(../styles/tipografia.css);
 
 *{
     padding: 0;
@@ -29,7 +29,6 @@ body{
     padding: 0 1rem;
     margin: 2px auto;
     height: auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -37,31 +36,6 @@ body{
 section, div{
     margin: 5px auto;
 }
-
-h1,h2,h3,h4,h5{
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: 500;
-}
-
-p{
-    line-height: 25px;
-    font-weight: 300;
-    margin: auto;
-}
-
-.texto-capitalizado{
-    text-transform: capitalize;
-}
-
-.texto-centralizado{
-    text-align: center;
-}
-
-.texto-em-minusculo{
-    text-transform: lowercase;
-}
-
 button{
     border: none;
     cursor: pointer;
@@ -87,4 +61,19 @@ button{
     background-repeat: no-repeat;
     background-size: auto;
     position: relative;
+}
+
+.linha-horizontal{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.crypto-making_subcontainer_texto a{
+    line-height: 25px;
+    font-size: 16px;
+    width: 120px;
+    height: 30px;
 }
